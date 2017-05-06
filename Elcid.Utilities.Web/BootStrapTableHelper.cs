@@ -14,7 +14,7 @@ namespace Elcid.Utilities.Web
         /// 构造分页数据
         /// </summary>
         /// <returns></returns>
-        public static DataPager GetDataPager()
+        public static DataPager  GetDataPager()
         {
             var request = HttpContext.Current.Request;
             if (string.IsNullOrEmpty(request.Params["page"]))
