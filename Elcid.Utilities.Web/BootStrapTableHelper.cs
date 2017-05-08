@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Elcid.Data;
+using System.Collections;
 using System.Web;
 
 namespace Elcid.Utilities.Web
@@ -17,7 +18,7 @@ namespace Elcid.Utilities.Web
         public static DataPager GetDataPager()
         {
             var request = HttpContext.Current.Request;
-            if (string.IsNullOrEmpty(request.Params["page"]))
+            if (string.IsNullOrEmpty(request.Params["limit"]) || string.IsNullOrEmpty(request.Params["offset"]))
             {
                 return null;
             }
