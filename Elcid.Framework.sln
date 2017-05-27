@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elcid.Utilities.Web", "Elci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elcid.Utilities", "Elcid.Utilities\Elcid.Utilities.csproj", "{E3D21A3A-99A5-4CDF-B998-B3D23CD69E34}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC1BC009-2650-4A21-882F-77E382773D00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elcid.Test", "Elcid.Test\Elcid.Test.csproj", "{028AC747-7D34-4825-B3D8-45446BDA504A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,22 @@ Global
 		{E3D21A3A-99A5-4CDF-B998-B3D23CD69E34}.Release|x64.Build.0 = Release|Any CPU
 		{E3D21A3A-99A5-4CDF-B998-B3D23CD69E34}.Release|x86.ActiveCfg = Release|Any CPU
 		{E3D21A3A-99A5-4CDF-B998-B3D23CD69E34}.Release|x86.Build.0 = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|ARM.Build.0 = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|x64.Build.0 = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Debug|x86.Build.0 = Debug|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|ARM.ActiveCfg = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|ARM.Build.0 = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|x64.ActiveCfg = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|x64.Build.0 = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|x86.ActiveCfg = Release|Any CPU
+		{028AC747-7D34-4825-B3D8-45446BDA504A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -60,5 +80,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{88565449-DF01-44EA-8F2A-88215CD026E0} = {BD9CAA11-7F88-4B6F-AEE7-D59418E94814}
 		{E3D21A3A-99A5-4CDF-B998-B3D23CD69E34} = {BD9CAA11-7F88-4B6F-AEE7-D59418E94814}
+		{028AC747-7D34-4825-B3D8-45446BDA504A} = {FC1BC009-2650-4A21-882F-77E382773D00}
 	EndGlobalSection
 EndGlobal
