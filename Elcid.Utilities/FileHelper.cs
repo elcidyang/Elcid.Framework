@@ -165,6 +165,17 @@ namespace Elcid.Utilities
         }
         #endregion
 
+        #region 判断文件夹是否存在
+        /// <summary>
+        /// 判断文件夹是否存在
+        /// </summary>
+        /// <param name="path">C:\\1</param>
+        public static bool IsExistFolder(string path)
+        {
+            return Directory.Exists(path);
+        }
+        #endregion
+
         #region 创建文件夹
         /// <summary>
         /// 创建文件夹
