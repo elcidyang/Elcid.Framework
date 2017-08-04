@@ -13,6 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{FC1BC009-2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elcid.Test", "Elcid.Test\Elcid.Test.csproj", "{028AC747-7D34-4825-B3D8-45446BDA504A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{35A41520-09EF-4E9D-A35A-B93927719FF7}"
+	ProjectSection(SolutionItems) = preProject
+		utils.js = utils.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
